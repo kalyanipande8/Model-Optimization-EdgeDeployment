@@ -1,0 +1,117 @@
+{
+  "baseline_accuracy": 0.8733333333333333,
+  "baseline_size_bytes": 19344.0,
+  "note": "Latency measured on this development machine's CPU as a PROXY for an edge/embedded device -- no physical embedded hardware was used.",
+  "configs": [
+    {
+      "name": "prune_0pct_fp32",
+      "sparsity": 0.0,
+      "quantized": false,
+      "accuracy": 0.8733333333333333,
+      "accuracy_retention_pct": 100.0,
+      "size_bytes": 19344.0,
+      "size_reduction_pct": 0.0,
+      "latency_ms_mean": 0.13589841616669673,
+      "latency_ms_std": 0.16065614929614727
+    },
+    {
+      "name": "prune_0pct_int8",
+      "sparsity": 0.0,
+      "quantized": true,
+      "accuracy": 0.8722222222222222,
+      "accuracy_retention_pct": 99.87277353689568,
+      "size_bytes": 4836.0,
+      "size_reduction_pct": 75.0,
+      "latency_ms_mean": 0.11351800699998194,
+      "latency_ms_std": 0.10897072475475263
+    },
+    {
+      "name": "prune_30pct_fp32",
+      "sparsity": 0.3,
+      "quantized": false,
+      "accuracy": 0.8822222222222222,
+      "accuracy_retention_pct": 101.01781170483461,
+      "size_bytes": 16975.0,
+      "size_reduction_pct": 12.246691480562443,
+      "latency_ms_mean": 0.13997521550002526,
+      "latency_ms_std": 0.1306115524582903
+    },
+    {
+      "name": "prune_30pct_int8",
+      "sparsity": 0.3,
+      "quantized": true,
+      "accuracy": 0.8788888888888889,
+      "accuracy_retention_pct": 100.63613231552165,
+      "size_bytes": 6730.0,
+      "size_reduction_pct": 65.20885028949546,
+      "latency_ms_mean": 0.1073657915000202,
+      "latency_ms_std": 0.07936297784067299
+    },
+    {
+      "name": "prune_55pct_fp32",
+      "sparsity": 0.55,
+      "quantized": false,
+      "accuracy": 0.87,
+      "accuracy_retention_pct": 99.61832061068702,
+      "size_bytes": 11055.0,
+      "size_reduction_pct": 42.85049627791563,
+      "latency_ms_mean": 0.08225824299989881,
+      "latency_ms_std": 0.0488818582455453
+    },
+    {
+      "name": "prune_55pct_int8",
+      "sparsity": 0.55,
+      "quantized": true,
+      "accuracy": 0.87,
+      "accuracy_retention_pct": 99.61832061068702,
+      "size_bytes": 4362.0,
+      "size_reduction_pct": 77.45037220843672,
+      "latency_ms_mean": 0.08801226433333416,
+      "latency_ms_std": 0.049057243729230725
+    },
+    {
+      "name": "prune_70pct_fp32",
+      "sparsity": 0.7,
+      "quantized": false,
+      "accuracy": 0.8755555555555555,
+      "accuracy_retention_pct": 100.25445292620864,
+      "size_bytes": 7505.0,
+      "size_reduction_pct": 61.202440033085196,
+      "latency_ms_mean": 0.09206977133332354,
+      "latency_ms_std": 0.06060362881924082
+    },
+    {
+      "name": "prune_70pct_int8",
+      "sparsity": 0.7,
+      "quantized": true,
+      "accuracy": 0.8766666666666667,
+      "accuracy_retention_pct": 100.38167938931299,
+      "size_bytes": 2942.0,
+      "size_reduction_pct": 84.79114971050454,
+      "latency_ms_mean": 0.0638350976666402,
+      "latency_ms_std": 0.042997651567845394
+    },
+    {
+      "name": "prune_85pct_fp32",
+      "sparsity": 0.85,
+      "quantized": false,
+      "accuracy": 0.8455555555555555,
+      "accuracy_retention_pct": 96.81933842239185,
+      "size_bytes": 3955.0,
+      "size_reduction_pct": 79.55438378825475,
+      "latency_ms_mean": 0.06437665316669457,
+      "latency_ms_std": 0.03410424380161579
+    },
+    {
+      "name": "prune_85pct_int8",
+      "sparsity": 0.85,
+      "quantized": true,
+      "accuracy": 0.8444444444444444,
+      "accuracy_retention_pct": 96.69211195928754,
+      "size_bytes": 1522.0,
+      "size_reduction_pct": 92.13192721257238,
+      "latency_ms_mean": 0.05409736749995394,
+      "latency_ms_std": 0.038968089445114276
+    }
+  ]
+}

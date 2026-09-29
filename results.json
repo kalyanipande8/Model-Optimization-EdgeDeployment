@@ -1,0 +1,38 @@
+{
+  "baseline": {
+    "accuracy": 0.8733333333333333,
+    "params_total": 4836,
+    "params_nonzero": 4836,
+    "size_bytes": 19344.0,
+    "latency_ms_mean": 0.09353215316663939,
+    "latency_ms_std": 0.07201345431616796
+  },
+  "pruned_only": {
+    "sparsity_target": 0.55,
+    "accuracy": 0.87,
+    "params_total": 4836,
+    "params_nonzero": 2231,
+    "actual_sparsity": 0.5386683209263854,
+    "size_bytes": 11055.0,
+    "size_reduction_pct": 42.85049627791563,
+    "accuracy_retention_pct": 99.61832061068702,
+    "latency_ms_mean": 0.08900738966663842,
+    "latency_ms_std": 0.0805637395544929
+  },
+  "pruned_plus_quantized": {
+    "accuracy": 0.87,
+    "size_bytes": 4362.0,
+    "size_reduction_pct": 77.45037220843672,
+    "accuracy_retention_pct": 99.61832061068702,
+    "latency_ms_mean": 0.13680509666661086,
+    "latency_ms_std": 0.10806136050816458
+  },
+  "quantized_only": {
+    "accuracy": 0.8722222222222222,
+    "size_bytes": 4836.0,
+    "size_reduction_pct": 75.0,
+    "accuracy_retention_pct": 99.87277353689568,
+    "latency_ms_mean": 0.11094344466660762,
+    "latency_ms_std": 0.10425189019915981
+  }
+}
